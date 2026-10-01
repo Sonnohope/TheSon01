@@ -82,14 +82,21 @@
 
     <fieldset>
         <legend>Preferred Date / Time</legend>
-
-        <label>Date</label>
-        <input type="text" placeholder="dd/mm/yyyy">
-
-        <br>
-
-        <label>Time</label>
-        <input type="text" placeholder="00:00">
+ <p>
+        <label for="date">Date</label>
+        <input type="text" id="date" name="date"
+               placeholder="dd/mm/yyyy"
+               pattern="\d{2}/\d{2}/\d{4}"
+               title="Please enter the date as dd/mm/yyyy">
+      </p>
+      <p>
+        <label for="time">Time</label>
+        <input type="text" id="time" name="time"
+               placeholder="00:00"
+               pattern="\d{2}:\d{2}"
+               title="Please enter the time as hh:mm">
+      </p>
+    </fieldset>
 
     </fieldset>
  <button type="submit">Book</button>
