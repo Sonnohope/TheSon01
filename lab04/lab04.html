@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Desk</title>
+    <link rel="stylesheet" href="Styles/lab04.css">
+</head>
+<body>
+    <p>COS10026 - <strong>Web</strong> Technology Project</p>
+    <div id="content">
+        <h1>HTML 5 Basic Content Elements with some Simple CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#headings">Heading and Paragraphs</a></li>
+                <li><a href="#special">Special Characters</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#links">Hyperlinks</a></li>
+            </ul>
+        </nav>
+        <p><em>HTML page without CSS styling looks a bit boring!!</em></p>
+        <h2>Headings and Paragraphs</h2>
+        <p>Headings and paragraphs are BLOCK elements</p>
+        <h2>Headings</h2>
+        <p>There are 6 levels of heading. Headings are logical marked. Do not skip levels. If you want to change the size of a heading, 
+        don't change its level - change the CSS</p>
+        <h2>Paragraphs</h2>
+        <p>Paragraphs contain the body text of a web page. You cannot put another block element inside a paragraph.
+        <h2>Special Characters</h2>
+        <p>While HTML supports many named special characters like ® (#174), XML only supports 5 namely: " ' & < and >. So to keep your HTML compliant you need to use numbers for all the others.</p>
+        <h2>Lists</h2>
+        <p>There are three types of lists: Unordered and Ordered lists, and Definition Lists </p>
+        <ul
+            <li>First bullet point</li>
+            <li>Second bullet point</li>
+            <li>Third bullet point</li>
+        </ul>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+    </div>
+        <p>Lists can also be nested inside each other</p>
+        <div id="content">
+          <ol>
+            <li>First item</li>
+            <li>Second item
+                <ul>
+                    <li>First sub-item</li>
+                    <li>Second sub-item</li>
+                    <li>Third sub-item</li>
+                </ul>
+            </li>
+            <li>Third item</li>
+        </ol>
+        <h2 id="tables">Tables</h2>
+        <table>
+            <caption>Table of Monthly Savings</caption>
+            <tr>
+                <th rowspan="2">Month</th>
+                <th colspan="3">Savings</th>
+            </tr>
+            <tr>
+                <th>Salary</th>
+                <th>Interest</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <th>Jan</th>
+                <td>$60</td>
+                <td>$40</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <th>Feb</th>
+                <td>$40</td>
+                <td>$40</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <th colspan="3">Grand Total</th>
+                <td>$180</td>
+            </tr>
+        </table>
+        <h2 id="links">Hyperlinks  </h2>
+        <p><a href="https://swinburne.instructure.com/" target="_blank">This is a link to an external site Canvas</a></p>
+        <p>This is a link to the <a href="#lists">List Section</a> of the Web page</p>
+        <p>This is a link using <a href="mailto: sghe@gmail.com">email</a> rather than an http protocol</p>
+        <h2 id="images" class="center">Images</h2>
+        <p>This thumbnail image is used as a hyperlink to a larger version of the image</p>
+         <a href="mycat.jpg" target="_self"><img src="mycat_small.jpg" width="75"></a>
+
+
+</body>
+</html>
