@@ -28,9 +28,16 @@ nav ul {
     padding: 0 0 5px 0;
     border-bottom: 2px solid #555555;
 }
+nav li:hover {
+    background-color: #40b2d4;
+}
+
+nav li:hover a {
+    color: #3399cc;
+}
 nav li {
     display: inline-block;
-    border: 1px solid #a39b9b;
+    border: 1px solid #9b9fa3;
     background-color: #f0f0f0;
     padding: 3px 8px;
     margin-right: 3px;
@@ -50,7 +57,9 @@ caption { margin-bottom: 4px; }
 th { background-color: #e8e8e8; }
 
 /* Link */
-a { color: #333333; }
+a { color: #b13a3a; }
 html {
     margin-left: 200px;
 }
+
+  
